@@ -42,11 +42,11 @@ a {
 }
  @media screen and (min-width:768px) {
    .container {
-    mах-width: 768px;}
+    max-width: 768px;}
  }
 
   @media screen and (min-width:1158px) {
-   .container {mах-width: 1158px;
+   .container {max-width: 1158px;
   padding: 0 15px;}
  }
 .header {
@@ -104,11 +104,10 @@ cursor: pointer;
 line-height: 0;
 border: none;
 }
-/* ================FOR LAPTOP============== */
+/* ================FOR TABLET============== */
 @media screen and (min-width: 768px) {
   
- 
-  .open-menu-btn {
+   .open-menu-btn {
     display: none;
   }
   .logo {
