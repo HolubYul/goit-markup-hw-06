@@ -36,13 +36,22 @@ a {
 /* HEADER */
 
 .container {
-  max-width: 1158px;
-  padding: 0 15px;
+  max-width: 320px;
+  padding: 0 16px;
   margin: 0 auto;
 }
+ @media screen and (min-width:768px) {
+   .container {mах-width: 768px;}
+ }
+
+  @media screen and (min-width:1158px) {
+   .container {mах-width: 1158px;
+  padding: 0 15px;}
+ }
+
 
 .menu {
-  display: flex;
+  display: none;
   align-items: center;
 }
 .header-container {
@@ -69,6 +78,7 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding: 17px 0;
 }
 
 .logo-name {
@@ -129,6 +139,7 @@ bottom: -1px;
 
 .address {
   font-style: normal;
+  display: none;
 }
 .address-list {
   display: flex;
