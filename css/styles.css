@@ -28,8 +28,7 @@ a {
   text-decoration: none;
 }
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 96px 0;
 }
 /* ------------------------------------------------------
 ======================================================= */
@@ -50,7 +49,7 @@ a {
   padding: 0 15px;}
  }
 .header {
-   border-bottom: 1px solid #e7e9fc;
+     border-bottom: 1px solid #e7e9fc;
    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
@@ -81,25 +80,15 @@ a {
  .nav-list {
   display: none;
 }
-
-
-.menu-item{
-    padding-bottom: 24px;
-      padding-top: 24px;
-   
-}
-
-
 .address {
   font-style: normal;
   margin-left: auto;
   display: none;
 }
 
-
 .open-menu-btn  {
-  padding: 0;
-  background-color: transparent;
+padding: 0;
+background-color: transparent;
 cursor: pointer;
 line-height: 0;
 border: none;
@@ -107,6 +96,7 @@ border: none;
 /* ================FOR TABLET============== */
 @media screen and (min-width: 768px) {
   
+   
    .open-menu-btn {
     display: none;
   }
@@ -189,7 +179,7 @@ bottom: -1px;
 
 @media screen and (min-width: 1158px) {
   .logo {
-    margin-right: 156px;
+    margin-right: 76px;
   }
   .address-list {
     flex-direction: row;
@@ -201,8 +191,20 @@ bottom: -1px;
   }
 }
 
-
 /* HERO */
+
+@media screen and (min-width:768px) {
+   @media (min-resolution: 192dpi) {
+  .hero {
+    background-image: url('../images/people-office@2x.jpg');
+  }
+}
+ }
+
+  /* @media screen and (min-width:1158px) {
+   .hero {}
+ } */
+
 .hero {
    
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
