@@ -193,42 +193,44 @@ bottom: -1px;
 
 /* HERO */
 
-@media screen and (min-width:768px) {
-   @media (min-resolution: 192dpi) {
-  .hero {
-    background-image: url('../images/people-office@2x.jpg');
-  }
-}
+/* @media screen and (min-width:768px) {
+   .container {
+    max-width: 768px;}
  }
 
-  /* @media screen and (min-width:1158px) {
-   .hero {}
+  @media screen and (min-width:1158px) {
+   .container {max-width: 1158px;
+  padding: 0 15px;}
  } */
 
 .hero {
    
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mob.jpg);
   background-size: cover;
   background-repeat: no-repeat; 
   background-position: center; 
   background-color: #2e2f42;
-  padding: 188px 0;
-  max-width: 1440px;
+  padding: 72px 0;
+  max-width: 320px;
+  /* padding: 188px 0; */
+  /* max-width: 1440px; */
   margin: 0 auto;
 }
 
-
-
 .title-hero {
-  font-size: 56px;
+  font-size: 36px;
+  line-height: 1.1;
+  /* font-size: 56px; */
   font-weight: 700;
-  line-height: 1.07;
+  /* line-height: 1.07; */
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  max-width: 496px;
+  max-width: 216px;
+  /* max-width: 496px; */
   margin: 0 auto;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
+  /* margin-bottom: 48px; */
   
 }
 
@@ -255,6 +257,15 @@ bottom: -1px;
 .button-hero:hover {
   background-color: #404bbf;
   }
+/* ================FOR TABLET============== */
+@media screen and (min-width: 768px) {
+background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url();
+ 
+
+
+}
+
+
 
 /* VALUES */
 
